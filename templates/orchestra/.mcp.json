@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/mnt/c/Users/kawad/Claude-Code-Workspace",
+        "/mnt/c/Users/kawad/DevSandbox"
+      ],
+      "env": {}
+    }
+  }
+}

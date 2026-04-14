@@ -1,0 +1,26 @@
+# NotebookLM Oracle Configuration
+# Notebook IDs are managed by the Producer (Human) in notebook-ids.json
+
+access_priority:
+  - local_capsule    # 0ms, always available
+  - notebooklm       # 2-5s, optional deep knowledge
+  - gemini_search    # 5-15s, fallback for real-time info
+
+notebooklm:
+  enabled: false  # Set to true after populating notebook-ids.json
+  timeout_seconds: 10
+  retry_max: 2
+
+mcp_server:
+  command: "uv"
+  args: ["run", "python", "mcp-servers/knowledge-oracle/server.py"]
+  cwd: "."
+
+capsule_paths:
+  shared_core: knowledge/capsules/shared-core/
+  architect: knowledge/capsules/architect/
+  guardian: knowledge/capsules/guardian/
+  builder: knowledge/capsules/builder/
+  scout: knowledge/capsules/scout/
+  critic: knowledge/capsules/critic/
+  operator: knowledge/capsules/operator/

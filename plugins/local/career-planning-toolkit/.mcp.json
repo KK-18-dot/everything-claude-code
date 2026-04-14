@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "web-research": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp?tools=web_search_exa,company_research_exa,crawling_exa,deep_researcher_start,deep_researcher_check",
+      "headers": {}
+    }
+  }
+}

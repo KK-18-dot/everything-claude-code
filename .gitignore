@@ -1,0 +1,41 @@
+# Runtime / cache
+cache/
+statsig/
+paste-cache/
+debug/
+downloads/
+file-history/
+shell-snapshots/
+session-env/
+sessions/
+telemetry/
+stats-cache.json
+mcp-needs-auth-cache.json
+statusline.sh
+
+# History / logs
+history.jsonl
+*.jsonl
+
+# Personal planning (session-scoped)
+plans/
+tasks/
+todos/
+
+# Memory (private, project-specific)
+projects/
+
+# Backups / archive
+backups/
+archive/
+
+# Credentials / secrets
+.credentials.json
+*.credentials.json
+auth_tokens.json
+storage_state.json
+
+# OS / editor
+.DS_Store
+*.swp
+*~

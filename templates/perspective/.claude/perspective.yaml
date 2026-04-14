@@ -1,0 +1,64 @@
+version: 1
+project_name: "my-project"  # Change to your project name
+
+# Perspective definitions: name -> model/tool/display_name/description
+# Customize models and display names per project.
+perspectives:
+  CONDUCTOR:
+    model: opusplan
+    tool: claude-code
+    display_name: "\u76e3\u7763"
+    description: Orchestration, casting, merge judgment
+  ARCHITECT:
+    model: gpt-5.4
+    tool: codex-cli
+    display_name: "\u811a\u672c\u5bb6"
+    description: Aggressive structural reasoning, design blind-spot detection
+  GUARDIAN:
+    model: opus
+    tool: claude-code-subagent
+    display_name: "\u6cd5\u52d9\u76e3\u4fee"
+    description: Comprehensive, cautious security analysis
+  BUILDER:
+    model: sonnet
+    tool: claude-agent-sdk
+    display_name: "\u64ae\u5f71\u76e3\u7763"
+    description: Fast, parallel implementation
+  SCOUT:
+    model: gemini-3-flash-preview
+    tool: gemini-cli
+    display_name: "\u30ed\u30b1\u30cf\u30f3"
+    description: 1M context, web search, data-driven exploration
+  CRITIC:
+    model: opus
+    tool: claude-code-subagent
+    display_name: "\u7de8\u96c6"
+    description: Detail-oriented code review, standards enforcement
+  OPERATOR:
+    model: deepseek-coder-v2
+    tool: ollama
+    display_name: "\u6620\u5199\u6280\u5e2b"
+    description: Local execution, private, zero-cost operations
+
+# NotebookLM notebook IDs (populate after creating notebooks)
+notebooks:
+  architect: null
+  guardian: null
+  builder: null
+  scout: null
+  critic: null
+  operator: null
+  studio_core: null
+
+# Budget formation (soccer metaphor)
+formation: "4-2-3-1"
+
+# Knowledge capsule paths (relative to project root)
+capsule_paths:
+  shared_core: knowledge/capsules/shared-core/
+  architect: knowledge/capsules/architect/
+  guardian: knowledge/capsules/guardian/
+  builder: knowledge/capsules/builder/
+  scout: knowledge/capsules/scout/
+  critic: knowledge/capsules/critic/
+  operator: knowledge/capsules/operator/

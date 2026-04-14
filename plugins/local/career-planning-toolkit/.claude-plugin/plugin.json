@@ -1,0 +1,8 @@
+{
+  "name": "career-planning-toolkit",
+  "description": "Local plugin for the career-planning project's batch research, framework review, schema auditing, and evidence verification workflows",
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "kk-18-dot"
+  }
+}

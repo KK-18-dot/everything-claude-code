@@ -1,0 +1,7 @@
+{
+  "name": "dev-env-control-plane",
+  "description": "Local plugin for WSL/Windows Claude runtime auditing, sync diagnosis, migration, and repair workflows",
+  "author": {
+    "name": "kk-18-dot"
+  }
+}

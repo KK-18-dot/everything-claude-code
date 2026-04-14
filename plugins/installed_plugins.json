@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "plugins": {
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-04T06:36:24.271Z",
+        "lastUpdated": "2026-04-04T06:40:22.658Z",
+        "gitCommitSha": "104d39be10b7b1380b2ae23a387a11a297b599c3"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7",
+        "version": "5.0.7",
+        "installedAt": "2026-04-04T06:40:38.093Z",
+        "lastUpdated": "2026-04-04T06:40:38.093Z",
+        "gitCommitSha": "b7a8f76985f1e93e75dd2f2a3b424dc731bd9d37"
+      }
+    ],
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-04T06:40:58.372Z",
+        "lastUpdated": "2026-04-04T06:40:58.372Z"
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/claude-plugins-official/playwright/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-04T06:41:18.431Z",
+        "lastUpdated": "2026-04-04T06:41:18.431Z"
+      }
+    ],
+    "ralph-loop@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/claude-plugins-official/ralph-loop/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-04T06:41:26.890Z",
+        "lastUpdated": "2026-04-04T06:41:26.890Z"
+      }
+    ],
+    "claude-md-management@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-04T06:42:01.095Z",
+        "lastUpdated": "2026-04-04T06:42:01.095Z"
+      }
+    ],
+    "codex@openai-codex": [
+      {
+        "scope": "user",
+        "installPath": "/home/kk-18-dot/.claude/plugins/cache/openai-codex/codex/1.0.2",
+        "version": "1.0.2",
+        "installedAt": "2026-04-04T06:44:15.518Z",
+        "lastUpdated": "2026-04-04T06:44:15.518Z",
+        "gitCommitSha": "8e403f9d4b496b0b0aff50fa3673f889f6a22cb1"
+      }
+    ]
+  }
+}
